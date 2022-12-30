@@ -16,32 +16,14 @@ body {
 
 
 .main__container {
-  background-color: beige;
+  background-color: variables.$Bittersweet;
   margin: 10px;
   border-radius: 25px;
   
 
 }
 
-.search__bar {
-  background-color: red;
-}
 
-.categories__list {
-  background-color: green;
-}
-
-.list__coctails {
-  background-color: aqua;
-
-  div {
-    background-color: yellow;
-  }
-}
-
-.favourite__drinks {
-  background-color: aquamarine;
-}
 
 
 @media only screen and (min-width: 576px) {
