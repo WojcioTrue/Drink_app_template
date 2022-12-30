@@ -1,16 +1,17 @@
 @use "variables";
 
 @font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
 }
 
 
-html,body {
-    height: 100%;
-    min-height: 100%;
-    margin: 0px;
-  }
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0px;
+}
 
 
 .main__container {
@@ -21,15 +22,19 @@ html,body {
 .search__bar {
   background-color: red;
 }
+
 .categories__list {
   background-color: green;
 }
+
 .list__coctails {
   background-color: aqua;
+
   div {
     background-color: yellow;
   }
 }
+
 .favourite__drinks {
   background-color: aquamarine;
 }
