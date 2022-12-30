@@ -1,2 +1,2 @@
-@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)}body,html{height:100%;min-height:100%;margin:0}.main__container{background-color:#f66;margin:10px;border-radius:25px}
+@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)}body,html{height:100%;min-height:100%;margin:0;font-family:Montserrat}.main__container{background-color:#f2f4f3;margin:10px;border-radius:25px}
 /*# sourceMappingURL=main_container.css.map */
