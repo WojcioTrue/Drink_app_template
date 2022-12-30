@@ -1,1 +1,0 @@
-{"version":3,"sources":["variables.scss"],"names":[],"mappings":"AAAA,WACI,YAAA,WACA,IAAA","file":"variables.css","sourcesContent":["@font-face {\r\n    font-family: Montserrat;\r\n    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)\r\n}\r\n\r\n$Bittersweet: #ff6666;\r\n$Xiketic: #1C0B19;\r\n$Cultured: #F2F4F3;"]}

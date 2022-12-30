@@ -6,10 +6,11 @@ const terser = require("gulp-terser");
 const browsersync = require("browser-sync").create();
 
 function scssTask() {
-  return src("src/scss/*.scss", { sourcemaps: true })
+  return src("src/scss/*.scss")
     .pipe(sass())
+    .pipe(concat(`style.css`))
     .pipe(cleanCss())
-    .pipe(dest("src/css/", { sourcemaps: "." }));
+    .pipe(dest("src/css"));
 }
 
 function jsTask() {
