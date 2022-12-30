@@ -3,6 +3,7 @@ const { exec } = require("child_process");
 const sass = require("gulp-sass")(require("sass"));
 const cleanCss = require("gulp-clean-css");
 const terser = require("gulp-terser");
+var concat = require('gulp-concat');
 const browsersync = require("browser-sync").create();
 
 function scssTask() {
