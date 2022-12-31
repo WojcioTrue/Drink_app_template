@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- own styles -->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="https://kit.fontawesome.com/f737611952.js" crossorigin="anonymous"></script>
+    <title>React App HTML/CSS template (no bootstrap)</title>
+  </head>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-  <!-- own styles -->
-  <link rel="stylesheet" href="src/css/style.css" />
-
-  <title>React App HTML/CSS template (no bootstrap)</title>
-</head>
-
-<body>
-  <div class="main__container">
-    <div class="search__bar">
-      <h2>FindMyDrink.</h2>
-      <input type="text" value="" id="SearchDrink" name="SearchDrink"/>
-    </div>
-    <div class="coctails__container">
-      <div class="coctails__main">
-        <div class="categories__list">
-          Categories: unsettled
-        </div>
-        <div class="list__coctails">
-          <p>List of coctails</p>
-          <div>coctail 1</div>
-          <div>coctail 2</div>
-          <div>coctail 3</div>
-        </div>
+  <body>
+    <div class="main__container">
+      <div class="search__bar">
+        <h2>FindMyDrink.</h2>
+        <span class="search__input">
+        <input type="text" value="" id="SearchDrink" name="SearchDrink"/>
+        <i class="fa-solid fa-magnifying-glass icon"></i>
+      </span>
       </div>
-      <div class="coctails__favourite">
-        <p>Favourite drinks</p>
-        <ul>
-          <li>favourite 1</li>
-          <li>favourite 2</li>
-          <li>favourite 3</li>
-        </ul>
-      </div>
+      <div class="coctails__container">
+        <div class="coctails__main">
+          <div class="categories__list">Categories: unsettled</div>
+          <div class="list__coctails">
+            <p>List of coctails</p>
+            <div>coctail 1</div>
+            <div>coctail 2</div>
+            <div>coctail 3</div>
+            
+          </div>
+        </div>
+        <div class="coctails__favourite">
+          <p>Favourite drinks</p>
+          <ul>
+            <li>favourite 1</li>
+            <li>favourite 2</li>
+            <li>favourite 3</li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
