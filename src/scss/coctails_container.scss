@@ -7,18 +7,29 @@
 
 .coctails-main {
     background-color: green;
+
     .categories-list {
         background-color: variables.$Cultured;
         color: variables.$Myblack;
         font-weight: 900;
+
         ul {
             padding-left: 0px;
             list-style: none;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+
+            li {
+                background-color: red;
+
+                img {
+                    width: 30px
+                }
+            }
         }
     }
+
     .list-coctails {
         background-color: yellow;
     }
