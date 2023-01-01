@@ -1,0 +1,14 @@
+.coctails-container {
+    background-color: red;
+    padding: 15px;
+}
+
+.coctails-main {
+    background-color: green;
+    .categories-list {
+        background-color: blue;
+    }
+    .list-coctails {
+        background-color: yellow;
+    }
+}
