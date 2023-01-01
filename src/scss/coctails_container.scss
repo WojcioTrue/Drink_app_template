@@ -22,9 +22,12 @@
 
             li {
                 background-color: red;
-
+                p {
+                    text-align: center;
+                    padding: 0px;
+                }
                 img {
-                    width: 30px
+                    width: 100px;
                 }
             }
         }
