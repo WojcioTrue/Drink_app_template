@@ -3,6 +3,8 @@
 .coctails-container {
     background-color: red;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .coctails-main {
@@ -40,4 +42,29 @@
     .list-coctails {
         background-color: yellow;
     }
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    .coctails-container {
+        flex-direction: row;
+    }
+    .coctails-main {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1400px) {
+
 }
