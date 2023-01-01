@@ -1,54 +1,51 @@
 @use "variables";
 
 .search-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search-bar__input {
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    height: 30px;
-    input {
-        width: 100%;
-        height: 100%;
-        box-sizing:border-box;
-        border-radius: 20px;
-        border-width: 1px;
-        padding-left: 20px;
-        background-color: variables.$GrayShade;
-        border: none;
-    }
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
 
-    .icon {
-        position: absolute;
-        right: 20px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border-width: 1px;
+    padding-left: 20px;
+    background-color: variables.$GrayShade;
+    border: none;
+  }
 }
 
 @media only screen and (min-width: 576px) {
-
 }
 
 @media only screen and (min-width: 768px) {
-    .search-bar {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .search-bar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    
 }
 
 @media only screen and (min-width: 1200px) {
-
 }
 
 @media only screen and (min-width: 1400px) {
-
 }
