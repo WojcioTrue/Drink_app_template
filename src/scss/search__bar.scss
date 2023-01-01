@@ -28,11 +28,14 @@
 }
 
 @media only screen and (min-width: 768px) {
-
+    .search-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media only screen and (min-width: 992px) {
-
+    
 }
 
 @media only screen and (min-width: 1200px) {
