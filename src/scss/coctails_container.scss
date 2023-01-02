@@ -1,14 +1,12 @@
 @use "variables";
 
 .coctails-container {
-    background-color: red;
     padding: 15px;
     display: flex;
     flex-direction: column;
 }
 
 .coctails-main {
-    background-color: green;
 
     .categories-list {
         background-color: variables.$Cultured;
