@@ -11,6 +11,13 @@ $GrayShade: #EAEAEA;
 
 @mixin label-style {
     font-size: 1.25rem;
-    color: $Myblack;
-    
+    color: $Myblack;   
+}
+
+@mixin add_remove_button {
+    width: 35px;
+    height: 35px;
+    path {
+        fill: $Myblack;
+    }
 }
