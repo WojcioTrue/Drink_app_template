@@ -75,12 +75,8 @@
                     }
                     .add-favourite {
                         float: right;
-                        margin-right: 5px;
-                        width: 35px;
-                        height: 25px;
-                        path {
-                            fill: variables.$Myblack;
-                        }
+                        margin-right: 10px;
+                        @include variables.add_remove_button;
                     }
                 }
             }
