@@ -47,14 +47,16 @@
         }
         .grid-coctails {
             display: grid;
-            gap: 1rem;
+            gap: 1.5rem;
             grid-template-columns: repeat(1, 1fr);
             justify-items: center;
             .grid-coctails__product {
                 background-color: variables.$Cultured;
+                border-radius: 20px;
+                padding: 20px 10px;
+                max-width: 250px;         
                 div {
                     position: relative;
-                    padding: 15px;
                     img {
                         position: relative;
                         width: 100%;
