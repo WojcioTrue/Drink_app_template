@@ -42,20 +42,23 @@
     }
 
     .list-coctails {
-        background-color: yellow;
         h3 {
             @include variables.label-style;
         }
         .grid-coctails {
             display: grid;
-            gap: 1.5rem;
+            gap: 1rem;
             grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
             .grid-coctails__product {
-                background-color: gray;
+                background-color: variables.$Cultured;
                 div {
+                    position: relative;
+                    padding: 15px;
                     img {
+                        position: relative;
                         width: 100%;
-                        height: 100px;
+                        
                     }
                 }
             }
