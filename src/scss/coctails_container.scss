@@ -60,7 +60,20 @@
                     img {
                         position: relative;
                         width: 100%;
-                        
+                    }
+                    h4 {
+                        margin-bottom: 0px;
+                    }
+                    p {
+                        color: gray;
+                        font-size: 0.75rem;
+                        margin-bottom: 30px;
+                    }
+                    .add-favourite {
+                        float: right;
+                        margin-right: 10px;
+                        width: 25px;
+                        height: 25px;
                     }
                 }
             }
