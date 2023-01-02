@@ -14,7 +14,9 @@
         background-color: variables.$Cultured;
         color: variables.$Myblack;
         font-weight: 900;
-
+        h3 {
+            @include variables.label-style;
+        }
         ul {
             padding-left: 0px;
             list-style: none;
@@ -41,6 +43,10 @@
 
     .list-coctails {
         background-color: yellow;
+        h3 {
+            @include variables.label-style;
+        }
+        
     }
 }
 

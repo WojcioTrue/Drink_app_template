@@ -2,6 +2,9 @@
 
 .coctails-favourite {
     background-color: gold;
+    h3 {
+        @include variables.label-style;
+    }
 }
 
 @media only screen and (min-width: 576px) {
