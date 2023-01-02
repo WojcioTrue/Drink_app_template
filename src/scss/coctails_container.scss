@@ -48,16 +48,21 @@
             gap: 1.5rem;
             grid-template-columns: repeat(1, 1fr);
             justify-items: center;
+            padding: 10px 10px;
             .grid-coctails__product {
                 background-color: variables.$Cultured;
                 border-radius: 20px;
                 padding: 20px 10px;
-                max-width: 250px;         
+                max-width: 250px;
+                box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
+                -webkit-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
+                -moz-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);  
                 div {
                     position: relative;
                     img {
                         position: relative;
                         width: 100%;
+                        border-radius: 10px;
                     }
                     h4 {
                         margin-bottom: 0px;
