@@ -31,10 +31,29 @@
                     font-size: 0.8rem;
                 }
                 img {
-                    width: 80px;
-                    height: 80px;
+                    width: 60px;
+                    height: 60px;
+                    padding: 15px;
                     border-radius: 15px;
                 }
+            }
+            li:nth-child(1) > img{
+                background-color: #fb364044;
+            }
+            li:nth-child(2) > img{
+                background-color: #eac63859;
+            }
+            li:nth-child(3) > img{
+                background-color: #7ac31352;
+            }
+            li:nth-child(4) > img{
+                background-color: #3b708046;
+            }
+            li:nth-child(5) > img{
+                background-color: #70699350;
+            }
+            li:nth-child(6) > img{
+                background-color: #16192544;
             }
         }
     }
