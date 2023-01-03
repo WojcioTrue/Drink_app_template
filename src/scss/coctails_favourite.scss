@@ -10,6 +10,10 @@
         li {
             margin-bottom: 10px;
             padding: 10px;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
         }
         .remove-favourite {
             @include variables.add_remove_button;
