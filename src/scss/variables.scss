@@ -6,7 +6,8 @@
 $Bittersweet: #ff6666;
 $Myblack: #1C0B19;
 $Cultured: #FDFDFD;
-$GrayShade: #EAEAEA;
+$Grayshade: #EAEAEA;
+$Grayboxshadow: #c9c9c9de;
 
 
 @mixin label-style {
@@ -23,7 +24,7 @@ $GrayShade: #EAEAEA;
 }
 
 @mixin my-boxshadow {
-    box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
-    -webkit-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
-    -moz-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);  
+    box-shadow: 8px 10px 16px 0px $Grayboxshadow;
+    -webkit-box-shadow: 8px 10px 16px 0px $Grayboxshadow;
+    -moz-box-shadow: 8px 10px 16px 0px $Grayboxshadow;  
 }
