@@ -1,7 +1,6 @@
 @use "variables";
 
 .coctails-favourite {
-    background-color: gold;
     h3 {
         @include variables.label-style;
     }
@@ -11,7 +10,6 @@
         li {
             margin-bottom: 10px;
             padding: 10px;
-            background-color: red;
         }
         .remove-favourite {
             @include variables.add_remove_button;
