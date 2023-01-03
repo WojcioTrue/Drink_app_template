@@ -36,9 +36,7 @@
                     height: 60px;
                     padding: 15px;
                     border-radius: 15px;
-                    box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
-                -webkit-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
-                -moz-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);  
+                    @include variables.my-boxshadow;  
                 }
             }
             li:nth-child(1) > img{
@@ -77,9 +75,7 @@
                 border-radius: 20px;
                 padding: 20px 10px;
                 max-width: 250px;
-                box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
-                -webkit-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
-                -moz-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);  
+                @include variables.my-boxshadow;  
                 div {
                     position: relative;
                     img {

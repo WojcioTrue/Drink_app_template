@@ -21,3 +21,9 @@ $GrayShade: #EAEAEA;
         fill: $Myblack;
     }
 }
+
+@mixin my-boxshadow {
+    box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
+    -webkit-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);
+    -moz-box-shadow: 8px 10px 16px 0px rgba(201,201,201,0.87);  
+}
