@@ -3,7 +3,8 @@
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
 }
 
-$Bittersweet: #ff6666;
+$Removefav: rgba(255, 68, 0, 0.774);
+$Addfav: rgba(76, 0, 130, 0.623);
 $Myblack: #1C0B19;
 $Cultured: #FDFDFD;
 $Grayshade: #EAEAEA;
@@ -19,7 +20,7 @@ $GrayText : #808080;
     width: 25px;
     height: 25px;
     path {
-        fill: $Myblack;
+        fill: $Removefav;
     }
 }
 
