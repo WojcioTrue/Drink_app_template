@@ -22,7 +22,7 @@
             }
         }
         .remove-favourite {
-            @include variables.add_remove_button;
+            @include variables.add_remove_button(variables.$Removefav);
         }
     }
 }

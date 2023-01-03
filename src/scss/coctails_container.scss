@@ -96,7 +96,7 @@
                     .add-favourite {
                         float: right;
                         margin-right: 10px;
-                        @include variables.add_remove_button;
+                        @include variables.add_remove_button(variables.$Addfav);
                     }
                 }
             }
