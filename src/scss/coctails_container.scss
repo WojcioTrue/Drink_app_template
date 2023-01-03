@@ -30,6 +30,7 @@
                     padding: 0px 5px;
                     margin: 5px 0px;
                     font-size: 0.8rem;
+                    color: variables.$GrayText;
                 }
                 img {
                     width: 60px;
@@ -88,7 +89,7 @@
                         color: variables.$Myblack;
                     }
                     p {
-                        color: gray;
+                        color: variables.$GrayText;
                         font-size: 0.75rem;
                         margin-bottom: 30px;
                     }
