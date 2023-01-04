@@ -1,0 +1,11 @@
+@use "variables";
+
+.fav-button {
+    background-color: variables.$Favbutton;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 100px;
+}
