@@ -5,20 +5,23 @@
   src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
 }
 
+
 html,
 body {
-  height: 100%;
-  min-height: 100%;
-  margin: 0px;
+  display: block;
+  min-height: 100vh;
+  margin: 10px;
   font-family: Montserrat;
+  background-color: variables.$Grayshade;
 }
 
 .main-container {
+  position: relative;
   background-color: variables.$Cultured;
   border-radius: 25px;
   padding: 1rem;
   max-width: 1200px;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 
 
