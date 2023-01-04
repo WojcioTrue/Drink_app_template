@@ -2,10 +2,32 @@
 
 .fav-button {
     background-color: variables.$Favbutton;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     right: 15px;
     bottom: 15px;
     border-radius: 100px;
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    .fav-button {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1400px) {
+
 }
