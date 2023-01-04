@@ -8,6 +8,13 @@
     right: 15px;
     bottom: 15px;
     border-radius: 100px;
+    img {
+     width: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
 }
 
 @media only screen and (min-width: 576px) {
