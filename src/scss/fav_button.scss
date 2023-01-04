@@ -2,18 +2,18 @@
 
 .fav-button {
     background-color: variables.$Favbutton;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     position: fixed;
     right: 15px;
     bottom: 15px;
     border-radius: 100px;
     img {
-     width: 35px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+        width: 40px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
