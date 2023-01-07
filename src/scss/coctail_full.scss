@@ -6,40 +6,53 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0, .3);
+    background-color: rgba(0, 0, 0, .3);
     box-sizing: border-box;
     padding: 20px;
+
     .relative-wrapper {
         position: relative;
         width: 100%;
         height: 100%;
+
         .coctail-full__container {
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%, -50%);
             width: 100%;
             max-width: 400px;
             border-radius: 20px;
             max-height: 600px;
             padding: 80px 20px;
             box-sizing: border-box;
-            
+
             background-color: variables.$Cultured;
+
             img {
                 display: block;
                 margin: 0 auto;
                 width: 100%;
                 height: auto;
                 border-radius: 15px;
-                
+
             }
-            h4 {
-                color: variables.$Myblack;
+
+            .coctail-full__text {
+                display: inline-block;
+                vertical-align: top;
+
+                h4 {
+                    color: variables.$Myblack;
+                    display: block;
+                }
+
+                p {
+                    color: variables.$GrayText;
+                    display: block;
+                }
             }
-            p {
-                color: variables.$GrayText;
-            }
+
             .add-favourite {
                 position: absolute;
                 right: 15px;
@@ -47,6 +60,7 @@
                 margin-right: 10px;
                 @include variables.add_remove_button(variables.$Addfav);
             }
+
             .coctail-full__close {
                 position: absolute;
                 right: 15px;
@@ -56,22 +70,53 @@
             }
         }
     }
-    
 }
 
 
 @media only screen and (min-width: 576px) {
+    .coctail-full {
+    
+        .relative-wrapper {
+    
+            .coctail-full__container {
+                
+                max-width: 768px;
+                border-radius: 20px;
+                max-height: 350px;
+                padding: 15px 20px;
+                box-sizing: border-box;
+    
+                background-color: variables.$Cultured;
+    
+                img {
+                    display: inline-block;
+                    width: 45%;
+                    max-width: 450px;
+                }
+    
+                .coctail-full__text {
+                    display: inline-block;
+                    vertical-align: top;
+                    padding-left: 15px;
+                    h4 {
+                        color: variables.$Myblack;
+                        display: block;
+                    }
+    
+                    p {
+                        color: variables.$GrayText;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
 
-}
+@media only screen and (min-width: 992px) {}
 
-@media only screen and (min-width: 992px) {
-}
+@media only screen and (min-width: 1200px) {}
 
-@media only screen and (min-width: 1200px) {
-}
-
-@media only screen and (min-width: 1400px) {
-}
+@media only screen and (min-width: 1400px) {}
