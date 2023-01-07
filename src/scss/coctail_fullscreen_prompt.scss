@@ -75,32 +75,33 @@
 
 @media only screen and (min-width: 576px) {
     .coctail-full {
-    
+
         .relative-wrapper {
-    
+
             .coctail-full__container {
                 max-width: 768px;
                 border-radius: 20px;
                 padding: 15px 20px;
                 box-sizing: border-box;
-    
+
                 background-color: variables.$Cultured;
-    
+
                 img {
                     display: inline-block;
                     width: 45%;
                     max-width: 450px;
                 }
-    
+
                 .coctail-full__text {
                     display: inline-block;
                     vertical-align: top;
                     padding-left: 15px;
+
                     h4 {
                         color: variables.$Myblack;
                         display: block;
                     }
-    
+
                     p {
                         color: variables.$GrayText;
                         display: block;
