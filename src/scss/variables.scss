@@ -13,8 +13,8 @@ $GrayText : #808080;
 }
 
 @mixin add_remove_button($color) {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     path {
         fill: $color;
     }
@@ -24,4 +24,9 @@ $GrayText : #808080;
     box-shadow: 8px 10px 16px 0px $Grayboxshadow;
     -webkit-box-shadow: 8px 10px 16px 0px $Grayboxshadow;
     -moz-box-shadow: 8px 10px 16px 0px $Grayboxshadow;  
+}
+
+@mixin mobile_view_icons {
+    width: 35px;
+    height: 35px;
 }
