@@ -29,7 +29,7 @@
                     text-align: center;
                     padding: 0px 5px;
                     margin: 5px 0px;
-                    font-size: 0.8rem;
+                    @include variables.small-text;
                     color: variables.$GrayText;
                     font-weight: 600;
                 }
@@ -91,7 +91,7 @@
                     }
                     p {
                         color: variables.$GrayText;
-                        font-size: 0.75rem;
+                        @include variables.small-text;
                         margin-bottom: 30px;
                     }
                     .add-favourite {

@@ -7,6 +7,10 @@ $Grayshade: #EAEAEA;
 $Grayboxshadow: #c9c9c9de;
 $GrayText : #808080;
 
+@mixin small-text {
+    font-size: 0.8rem;
+}
+
 @mixin label-style {
     font-size: 1.25rem;
     color: $Myblack;   
