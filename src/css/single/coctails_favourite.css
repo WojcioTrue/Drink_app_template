@@ -1,0 +1,41 @@
+.coctails-favourite {
+  display: none;
+}
+.coctails-favourite h3 {
+  font-size: 1.25rem;
+  color: #1C0B19;
+}
+.coctails-favourite ul {
+  list-style: none;
+  padding: 0px 10px;
+}
+.coctails-favourite ul li {
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 8px 10px 16px 0px rgba(201, 201, 201, 0.8705882353);
+  -webkit-box-shadow: 8px 10px 16px 0px rgba(201, 201, 201, 0.8705882353);
+  -moz-box-shadow: 8px 10px 16px 0px rgba(201, 201, 201, 0.8705882353);
+  border-radius: 10px;
+}
+.coctails-favourite ul li h4 {
+  font-weight: 400;
+  color: #808080;
+}
+.coctails-favourite ul .remove-favourite {
+  width: 30px;
+  height: 30px;
+}
+.coctails-favourite ul .remove-favourite path {
+  fill: rgba(76, 0, 130, 0.623);
+}
+
+@media only screen and (min-width: 992px) {
+  .coctails-favourite {
+    display: block;
+    width: 25%;
+  }
+}

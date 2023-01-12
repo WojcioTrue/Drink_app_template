@@ -1,0 +1,98 @@
+.coctail-full {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  padding: 20px;
+}
+.coctail-full .relative-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.coctail-full .relative-wrapper .coctail-full__container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  max-height: 600px;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  background-color: #FDFDFD;
+}
+.coctail-full .relative-wrapper .coctail-full__container img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.coctail-full .relative-wrapper .coctail-full__container .coctail-full__text {
+  display: inline-block;
+  vertical-align: top;
+}
+.coctail-full .relative-wrapper .coctail-full__container .coctail-full__text h4 {
+  color: #1C0B19;
+  display: block;
+}
+.coctail-full .relative-wrapper .coctail-full__container .coctail-full__text p {
+  color: #808080;
+  display: block;
+}
+.coctail-full .relative-wrapper .coctail-full__container .add-favourite {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.coctail-full .relative-wrapper .coctail-full__container .add-favourite path {
+  fill: rgba(255, 68, 0, 0.774);
+}
+.coctail-full .relative-wrapper .coctail-full__container .coctail-full__close {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.coctail-full .relative-wrapper .coctail-full__container .coctail-full__close path {
+  fill: rgba(76, 0, 130, 0.623);
+}
+
+@media only screen and (min-width: 576px) {
+  .coctail-full .relative-wrapper .coctail-full__container {
+    max-width: 768px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: #FDFDFD;
+  }
+  .coctail-full .relative-wrapper .coctail-full__container img {
+    display: inline-block;
+    width: 45%;
+    max-width: 450px;
+  }
+  .coctail-full .relative-wrapper .coctail-full__container .coctail-full__text {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+  }
+  .coctail-full .relative-wrapper .coctail-full__container .coctail-full__text h4 {
+    color: #1C0B19;
+    display: block;
+  }
+  .coctail-full .relative-wrapper .coctail-full__container .coctail-full__text p {
+    color: #808080;
+    display: block;
+  }
+}
