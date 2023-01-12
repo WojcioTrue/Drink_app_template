@@ -30,7 +30,7 @@
   height: 30px;
 }
 .coctails-favourite ul .remove-favourite path {
-  fill: rgba(76, 0, 130, 0.623);
+  fill: rgb(108, 55, 146);
 }
 
 @media only screen and (min-width: 992px) {

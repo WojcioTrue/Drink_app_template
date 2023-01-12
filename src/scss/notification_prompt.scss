@@ -1,0 +1,14 @@
+@use "variables";
+
+.favourite-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: variables.$Addfav;
+    padding: 0px 20px;
+    border-radius: 10px;
+    p{
+        color: variables.$Addfav;
+        display: block;
+    }
+}

@@ -1,0 +1,12 @@
+.favourite-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgb(255, 91, 31);
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+.favourite-notification p {
+  color: rgb(255, 91, 31);
+  display: block;
+}

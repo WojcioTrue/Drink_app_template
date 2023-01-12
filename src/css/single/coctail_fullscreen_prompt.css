@@ -55,7 +55,7 @@
   height: 30px;
 }
 .coctail-full .relative-wrapper .coctail-full__container .add-favourite path {
-  fill: rgba(255, 68, 0, 0.774);
+  fill: rgb(255, 91, 31);
 }
 .coctail-full .relative-wrapper .coctail-full__container .coctail-full__close {
   position: absolute;
@@ -66,7 +66,7 @@
   height: 30px;
 }
 .coctail-full .relative-wrapper .coctail-full__container .coctail-full__close path {
-  fill: rgba(76, 0, 130, 0.623);
+  fill: rgb(108, 55, 146);
 }
 
 @media only screen and (min-width: 576px) {
