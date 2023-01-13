@@ -9,10 +9,18 @@
     border-radius: 10px;
     p{
         color: variables.$Cultured;
-        display: block;
+        display: inline-block;
         font-weight: 600;
+        margin-right: 10px;
     }
     &.remove {
         background-color: variables.$Removefav;
     }
+
+    svg {
+        path {
+            fill: variables.$Cultured;
+        }
+    }
+    
 }

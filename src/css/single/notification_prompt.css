@@ -8,9 +8,13 @@
 }
 .favourite-notification p {
   color: #FDFDFD;
-  display: block;
+  display: inline-block;
   font-weight: 600;
+  margin-right: 10px;
 }
 .favourite-notification.remove {
   background-color: rgb(108, 55, 146);
+}
+.favourite-notification svg path {
+  fill: #FDFDFD;
 }
