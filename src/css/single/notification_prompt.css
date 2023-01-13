@@ -9,6 +9,7 @@
 .favourite-notification p {
   color: #FDFDFD;
   display: block;
+  font-weight: 600;
 }
 .favourite-notification.remove {
   background-color: rgb(108, 55, 146);
