@@ -53,9 +53,15 @@
       transition: outline .3s ease-out;
       outline: 1px solid variables.$Myblack;
     }
+
+    &:focus~.search-bar__suggestions {
+      display: block;
+    }
+
   }
 
   .search-bar__suggestions {
+    display: none;
     margin-top: 5px;
     background-color: variables.$Grayshade;
     border-radius: 15px;
@@ -73,6 +79,7 @@
         flex-wrap: nowrap;
         align-items: center;
         border-bottom: 1px solid white;
+
         img {
           border-radius: 10px;
           height: 50px;
@@ -80,6 +87,7 @@
           margin-right: 10px;
         }
       }
+
       li:last-child {
         border-bottom: 0px;
       }

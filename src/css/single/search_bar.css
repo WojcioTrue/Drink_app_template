@@ -46,7 +46,11 @@
   transition: outline 0.3s ease-out;
   outline: 1px solid #1C0B19;
 }
+.search-bar__input input[id=SearchDrink]:focus ~ .search-bar__suggestions {
+  display: block;
+}
 .search-bar__input .search-bar__suggestions {
+  display: none;
   margin-top: 5px;
   background-color: #EAEAEA;
   border-radius: 15px;
