@@ -6,16 +6,18 @@
   align-items: center;
   margin-bottom: 20px;
   padding: 0px 15px;
+
   h2 {
-    color : variables.$Myblack;
+    color: variables.$Myblack;
   }
 }
 
 .search-bar__logo {
   padding-right: 5px;
-    path {
-        fill: variables.$Myblack;
-    }
+
+  path {
+    fill: variables.$Myblack;
+  }
 }
 
 .search-bar__input {
@@ -23,15 +25,18 @@
   width: 100%;
   max-width: 500px;
   height: 35px;
+
   .icon {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+
     path {
-        fill : variables.$Myblack;
+      fill: variables.$Myblack;
     }
   }
+
 
   input[id="SearchDrink"] {
     width: 100%;
@@ -43,15 +48,46 @@
     background-color: variables.$Grayshade;
     outline: 1px solid variables.$Grayshade;
     transition: outline .3s ease-out;
+
     &:focus {
-        transition: outline .3s ease-out;
-        outline: 1px solid variables.$Myblack;
+      transition: outline .3s ease-out;
+      outline: 1px solid variables.$Myblack;
     }
+  }
+
+  .search-bar__suggestions {
+    margin-top: 5px;
+    background-color: variables.$Grayshade;
+    border-radius: 15px;
+
+    ul {
+      margin: 0px;
+      list-style: none;
+      padding: 0px;
+
+      li {
+        padding: 10px 10px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-bottom: 1px solid white;
+        img {
+          border-radius: 10px;
+          height: 50px;
+          width: 50px;
+          margin-right: 10px;
+        }
+      }
+      li:last-child {
+        border-bottom: 0px;
+      }
     }
+  }
 }
 
-@media only screen and (min-width: 576px) {
-}
+@media only screen and (min-width: 576px) {}
 
 @media only screen and (min-width: 768px) {
   .search-bar {
@@ -60,11 +96,8 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
-}
+@media only screen and (min-width: 992px) {}
 
-@media only screen and (min-width: 1200px) {
-}
+@media only screen and (min-width: 1200px) {}
 
-@media only screen and (min-width: 1400px) {
-}
+@media only screen and (min-width: 1400px) {}

@@ -46,6 +46,34 @@
   transition: outline 0.3s ease-out;
   outline: 1px solid #1C0B19;
 }
+.search-bar__input .search-bar__suggestions {
+  margin-top: 5px;
+  background-color: #EAEAEA;
+  border-radius: 15px;
+}
+.search-bar__input .search-bar__suggestions ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+.search-bar__input .search-bar__suggestions ul li {
+  padding: 10px 10px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.search-bar__input .search-bar__suggestions ul li img {
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.search-bar__input .search-bar__suggestions ul li:last-child {
+  border-bottom: 0px;
+}
 
 @media only screen and (min-width: 768px) {
   .search-bar {
