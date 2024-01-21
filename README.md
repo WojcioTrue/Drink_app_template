@@ -1,1 +1,1 @@
-Responsive template for React Drink App (HTML, SCSS and CSS. No Framework (bootstrap)
+Responsive template for React Drink App (HTML and SCSS). No Framework used.
